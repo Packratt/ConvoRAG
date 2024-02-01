@@ -128,7 +128,7 @@ def conversation_time():
             #Send conversation to LLM for summarization
             completion = client.chat.completions.create(
             messages = [
-                {"role": "system", "content": "Briefly list the key points to remember about the user, David, from this conversation that occurred at "  + str(current_time) + " on " + str(date_string) + ": "}, 
+                {"role": "system", "content": "Briefly list the key points to remember about the user from this conversation that occurred at "  + str(current_time) + " on " + str(date_string) + ": "}, 
                 {"role": "user", "content": str(conversation)},
                 ],
             model="mixtral-8x7b-instruct-fp16",
