@@ -1,0 +1,1 @@
+This Python sample code demonstrates how to use OctoAI Text Generation services Mixtral and GTE-Large models with Pinecone serverless RAG to give large language models long-term conversational memory.
